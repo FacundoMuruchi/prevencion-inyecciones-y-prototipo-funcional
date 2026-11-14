@@ -1,0 +1,5 @@
+2026-11-14 00:22:57,019 | WARNING | Intento de entrada rechazada por lista blanca: 'f'
+2026-11-14 00:23:17,722 | WARNING | Intento de entrada rechazada por lista blanca: '1; '
+2026-11-14 00:24:05,944 | WARNING | Intento de entrada rechazada por lista blanca: 'DROP DATABASE'
+2026-11-14 00:24:24,615 | WARNING | Intento de entrada rechazada por lista blanca: 'DROPDATABASE'
+2026-11-14 00:24:36,175 | WARNING | Intento de entrada rechazada por lista blanca: '123;'
