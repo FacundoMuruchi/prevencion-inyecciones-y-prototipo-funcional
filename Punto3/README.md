@@ -1,1 +1,0 @@
-# script-prevencion-de-inyecciones

@@ -3,8 +3,9 @@ import os
 import re
 import sqlite3
 
-DB_NAME = "cmdb_exxonmobil.db"
-LOG_FILE = "seguridad_cmdb.log"
+_HERE    = os.path.dirname(os.path.abspath(__file__))
+DB_NAME  = os.path.join(_HERE, "..", "cmdb_exxonmobil.db")   # CMDB compartida en la raíz
+LOG_FILE = os.path.join(_HERE, "seguridad_cmdb.log")          # log dentro de Punto3/
 
 # Configuración del registro interno de auditoría (para errores genéricos)
 logging.basicConfig(

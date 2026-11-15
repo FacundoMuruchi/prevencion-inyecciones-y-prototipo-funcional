@@ -1,0 +1,30 @@
+2026-11-15 20:02:28,699 | INFO | Seed inicial de usuarios del panel ejecutado.
+2026-11-15 20:03:06,289 | WARNING | Login rechazado â€” username invÃ¡lido: 'x' OR '1'='1'
+2026-11-15 20:03:06,296 | WARNING | ACCESO DENEGADO: 'mbellini' (rol=analista) intentÃ³ aprobar migraciÃ³n de CI-AWS-EC2-SN-02.
+2026-11-15 20:07:04,901 | WARNING | Login fallido para 'mbellini'.
+2026-11-15 20:07:11,181 | WARNING | Login fallido para 'mbellini'.
+2026-11-15 20:07:25,828 | WARNING | Login fallido para 'mbellini'.
+2026-11-15 20:07:52,803 | WARNING | Login fallido para 'mbellini'.
+2026-11-15 20:08:32,833 | WARNING | Login fallido para 'rcrespo'.
+2026-11-15 20:08:58,865 | WARNING | Login fallido para 'sdgdf'.
+2026-11-15 20:09:14,759 | WARNING | Login fallido para 'lsanchez'.
+2026-11-15 20:09:23,007 | WARNING | Login fallido para 'lsanchez'.
+2026-11-15 20:09:45,755 | INFO | Seed inicial de usuarios del panel ejecutado.
+2026-11-15 20:09:55,535 | WARNING | Login fallido para 'mbellini'.
+2026-11-15 20:13:13,790 | INFO | Login exitoso: 'mbellini' (rol=analista).
+2026-11-15 20:13:13,988 | INFO | Login exitoso: 'lsanchez' (rol=ccb).
+2026-11-15 20:13:14,180 | WARNING | Login fallido para 'mbellini'.
+2026-11-15 20:14:10,836 | WARNING | Login fallido para 'mbellini'.
+2026-11-15 20:14:22,395 | INFO | Login exitoso: 'mbellini' (rol=analista).
+2026-11-15 20:14:46,680 | INFO | 'mbellini' listó servidores (5 registros).
+2026-11-15 20:15:02,319 | INFO | 'mbellini' listó servidores (5 registros).
+2026-11-15 20:15:07,871 | INFO | 'mbellini' listó servidores (5 registros).
+2026-11-15 20:15:18,470 | INFO | 'mbellini' consultó servidor id=2132.
+2026-11-15 20:15:22,846 | INFO | 'mbellini' consultó servidor id=2.
+2026-11-15 20:15:25,870 | INFO | 'mbellini' consultó servidor id=1.
+2026-11-15 20:15:29,110 | INFO | 'mbellini' consultó servidor id=5.
+2026-11-15 20:15:31,454 | INFO | 'mbellini' consultó servidor id=8.
+2026-11-15 20:19:46,416 | INFO | Login exitoso: 'mbellini' (rol=analista).
+2026-11-15 20:19:46,616 | INFO | Login exitoso: 'rcrespo' (rol=analista).
+2026-11-15 20:19:46,814 | INFO | Login exitoso: 'lsanchez' (rol=ccb).
+2026-11-15 20:19:47,012 | INFO | Login exitoso: 'gfernandez' (rol=ccb).
