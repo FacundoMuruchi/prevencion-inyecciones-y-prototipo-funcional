@@ -23,7 +23,6 @@ prevencion_inyecciones/
     ├── panel_migracion.py      ← Panel de seguimiento con control de acceso (CCB)
     ├── usuarios_panel.db       ← Usuarios del panel (contraseñas hasheadas)
     ├── panel_auditoria.log     ← Log de auditoría del panel
-    └── credenciales_iniciales.txt  ← Generado solo en la primera ejecución
 ```
 
 ---

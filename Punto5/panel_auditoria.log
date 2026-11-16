@@ -28,3 +28,4 @@
 2026-11-15 20:19:46,616 | INFO | Login exitoso: 'rcrespo' (rol=analista).
 2026-11-15 20:19:46,814 | INFO | Login exitoso: 'lsanchez' (rol=ccb).
 2026-11-15 20:19:47,012 | INFO | Login exitoso: 'gfernandez' (rol=ccb).
+2026-11-15 20:57:18,105 | INFO | Seed inicial de usuarios del panel ejecutado.

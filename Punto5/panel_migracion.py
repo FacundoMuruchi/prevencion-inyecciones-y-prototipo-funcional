@@ -14,8 +14,7 @@ Solo biblioteca estándar. Ejecutar:
 
 Los usuarios del panel se crean al primer arranque y sus hashes se persisten en
 usuarios_panel.db (SQLite local, sin datos de producción). Las credenciales de
-ejemplo se generan aleatoriamente en cada primera ejecución y se muestran en
-pantalla una sola vez; en un despliegue real se inyectarían via variables de entorno.
+ejemplo se generan aleatoriamente en cada primera ejecución; en un despliegue real se inyectarían via variables de entorno.
 """
 
 import hashlib
@@ -136,27 +135,6 @@ def _seed_usuarios(conn: sqlite3.Connection) -> None:
 
     conn.commit()
 
-    # Guardar credenciales en archivo y mostrarlas en pantalla (solo primera vez)
-    cred_file = os.path.join(_HERE, "credenciales_iniciales.txt")
-    lineas = [
-        "PRIMERA EJECUCIÓN — Credenciales del panel de migración ExxonMobil",
-        "Guardá este archivo en un lugar seguro y eliminalo después.",
-        "-" * 60,
-    ]
-    for username, rol, pwd, env_var in generadas:
-        lineas.append(f"  {username:<12} [{rol:<8}]  pwd={pwd}  (env: {env_var})")
-    lineas.append("-" * 60)
-
-    with open(cred_file, "w", encoding="utf-8") as f:
-        f.write("\n".join(lineas) + "\n")
-
-    print("\n" + "=" * 60)
-    print("  PRIMERA EJECUCIÓN — Credenciales generadas para el panel")
-    print("  (También guardadas en: credenciales_iniciales.txt)")
-    print("=" * 60)
-    for username, rol, pwd, env_var in generadas:
-        print(f"  {username:<12} [{rol:<8}]  pwd={pwd}  (env: {env_var})")
-    print("=" * 60 + "\n")
     logging.info("Seed inicial de usuarios del panel ejecutado.")
 
 
