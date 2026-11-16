@@ -1,4 +1,4 @@
-# ExxonMobil — Prevención de Inyecciones · Migración On-Premise → AWS
+# Prevención de Inyecciones · Migración On-Premise → AWS
 
 Proyecto de seguridad sobre la CMDB de servidores de ExxonMobil durante su migración a AWS.
 Implementa defensa contra inyecciones SQL y de comandos (Punto 3) y un panel de seguimiento
