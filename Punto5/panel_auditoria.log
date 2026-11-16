@@ -29,3 +29,16 @@
 2026-11-15 20:19:46,814 | INFO | Login exitoso: 'lsanchez' (rol=ccb).
 2026-11-15 20:19:47,012 | INFO | Login exitoso: 'gfernandez' (rol=ccb).
 2026-11-15 20:57:18,105 | INFO | Seed inicial de usuarios del panel ejecutado.
+2026-11-15 21:56:19,968 | INFO | Seed inicial de usuarios del panel ejecutado.
+2026-11-15 21:56:57,496 | WARNING | Login fallido para 'mbellini1234'.
+2026-11-15 21:57:00,217 | INFO | Login exitoso: 'mbellini' (rol=analista).
+2026-11-15 21:57:03,290 | INFO | 'mbellini' listó servidores (5 registros).
+2026-11-15 21:57:08,946 | INFO | 'mbellini' consultó servidor id=3.
+2026-11-15 21:57:11,409 | INFO | 'mbellini' consultó servidor id=6.
+2026-11-15 21:57:17,462 | INFO | 'mbellini' cerró sesión.
+2026-11-15 21:57:23,533 | INFO | Login exitoso: 'lsanchez' (rol=ccb).
+2026-11-15 21:57:26,074 | INFO | 'lsanchez' listó servidores (5 registros).
+2026-11-15 21:58:10,364 | INFO | 'lsanchez' listó servidores (5 registros).
+2026-11-15 21:58:40,973 | INFO | 'lsanchez' listó servidores (5 registros).
+2026-11-15 21:58:54,220 | INFO | CCB 'lsanchez' aprobó migración: CI-ONPREM-HUN-APP04 \u2192 estado='Cancelado'.
+2026-11-15 21:58:56,726 | INFO | 'lsanchez' listó servidores (5 registros).
